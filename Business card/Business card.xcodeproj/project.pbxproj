@@ -11,6 +11,7 @@
 		F585EB65259155AF00761019 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585EB64259155AF00761019 /* ContentView.swift */; };
 		F585EB67259155B200761019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585EB66259155B200761019 /* Assets.xcassets */; };
 		F585EB6A259155B200761019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585EB69259155B200761019 /* Preview Assets.xcassets */; };
+		F585EB732591EB9100761019 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585EB722591EB9100761019 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F585EB66259155B200761019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F585EB69259155B200761019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F585EB6B259155B200761019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F585EB722591EB9100761019 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F585EB62259155AF00761019 /* Business_cardApp.swift */,
 				F585EB64259155AF00761019 /* ContentView.swift */,
+				F585EB722591EB9100761019 /* InfoView.swift */,
 				F585EB66259155B200761019 /* Assets.xcassets */,
 				F585EB6B259155B200761019 /* Info.plist */,
 				F585EB68259155B200761019 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F585EB65259155AF00761019 /* ContentView.swift in Sources */,
+				F585EB732591EB9100761019 /* InfoView.swift in Sources */,
 				F585EB63259155AF00761019 /* Business_cardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

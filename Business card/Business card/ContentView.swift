@@ -15,23 +15,21 @@ struct ContentView: View {
             VStack {
                 Image("avatar")
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
+                    .aspectRatio(contentMode: .fill)
                     .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                     .overlay(Circle().stroke(Color.white, lineWidth: 5))
-                Text("Some person")
+                Text("Alice")
                     .font(.title)
                     .bold()
                     .foregroundColor(.white)
                     .padding()
-                Text("iOS Develpoper")
+                Text("Designer")
                     .foregroundColor(.white)
                     .font(.system(size: 23))
                 Divider()
-                RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
-                    .fill(Color.white)
-                    .frame(height: 50, alignment: .center)
-                    .overlay(Text("+1234567890").bold())
+                InfoView(text: "+1234567890")
+                InfoView(text: "somemail@mail.ru")
             }
             
             
@@ -44,3 +42,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
